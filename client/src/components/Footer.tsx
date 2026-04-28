@@ -74,7 +74,7 @@ export default function Footer() {
               Contato
             </h4>
             <div className="space-y-4">
-              <a href="tel:+551148647590" className="flex items-start gap-3 text-gray-400 text-sm hover:text-[#00C8E0] transition-colors group">
+              <a href="tel:+5511948647590" className="flex items-start gap-3 text-gray-400 text-sm hover:text-[#00C8E0] transition-colors group">
                 <div className="w-9 h-9 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0 group-hover:bg-[#00C8E0]/20 transition-colors">
                   <Phone size={16} className="text-[#00C8E0]" />
                 </div>
