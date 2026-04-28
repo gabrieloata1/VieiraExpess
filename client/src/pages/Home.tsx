@@ -353,7 +353,7 @@ export default function Home() {
           <AnimatedSection>
             <div className="flex flex-col items-center justify-center">
               <img
-                src="/manus-storage/02-1_fa315827.png"
+                src="/logo-vieira.png"
                 alt="Vieira Express Logo"
                 className="h-[26rem] w-[26rem] object-cover rounded-full shadow-2xl shadow-[#00C8E0]/40 mb-8 hover:shadow-[#00C8E0]/60 transition-all duration-500 hover:scale-105"
               />
