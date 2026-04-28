@@ -786,7 +786,7 @@ export default function Home() {
                 <p className="text-gray-400 mb-5">Ou entre em contato direto:</p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <a
-                    href="tel:+551148647590"
+                    href="tel:+5511948647590"
                     className="inline-flex items-center justify-center gap-2 bg-white/10 border border-white/20 text-white font-bold py-3.5 px-7 rounded-lg hover:bg-white/20 transition-all duration-300"
                     style={{ fontFamily: 'var(--font-display)' }}
                   >
