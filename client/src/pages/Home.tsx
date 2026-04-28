@@ -304,12 +304,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Diagonal bottom */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-            <path d="M0 80L1440 80L1440 40L0 80Z" fill="white" />
-          </svg>
-        </div>
+       
       </section>
 
       {/* ═══════════════════════════════════════════════════════════
