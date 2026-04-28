@@ -33,10 +33,10 @@ const IMAGES = {
   aboutSection: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663605045527/bpsw3ZqLeramG3brkYb5Bc/about-section-F5jao2ABLVtn5swaLpdPVk.webp',
   ctaBg: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663605045527/bpsw3ZqLeramG3brkYb5Bc/cta-bg-cHnaAMzogBBumB3F72nKR6.webp',
   testimonialsBg: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663605045527/bpsw3ZqLeramG3brkYb5Bc/testimonials-bg-QwhnwnSDXpsSJyWi6AG6Cz.webp',
-  postFleet: '/manus-storage/IMG-20260427-WA0036_f3a7a30e.jpg',
-  postUtilitarios: '/manus-storage/IMG-20260427-WA0035_f8d381ef.jpg',
-  postMoto: '/manus-storage/IMG-20260427-WA0034_896ed995.jpg',
-  postStats: '/manus-storage/IMG-20260427-WA0037_6cff5158.jpg',
+  postFleet: '/frota-completa.jpg',
+  postUtilitarios: '/fiorino-entrega.jpg',
+  postMoto: '/moto-entrega.jpg',
+  postStats: '/van-entrega.jpg',
 };
 
 /* ── SERVICE DATA ── */
@@ -47,7 +47,7 @@ const services = [
     description: 'Ideal para documentos, pequenos pacotes e entregas com urgência máxima na cidade.',
     features: ['Entregas em até 2h', 'Agilidade no trânsito', 'Custo reduzido', 'Rastreio em tempo real'],
     icon: '🏍️',
-    image: '/manus-storage/IMG-20260427-WA0030_ded41197.jpg',
+    image: '/moto-entrega.jpg',
   },
   {
     id: 'carro',
@@ -55,7 +55,7 @@ const services = [
     description: 'Perfeito para mercadorias de médio porte, itens frágeis ou entregas discretas.',
     features: ['Capacidade intermediária', 'Maior proteção ao conteúdo', 'Flexibilidade urbana', 'Conforto no transporte'],
     icon: '🚗',
-    image: '/manus-storage/file_00000000f53071f597f4ad723c33ed45_18489f60.png',
+    image: '/carro-entrega.jpg',
   },
   {
     id: 'fiorino',
@@ -63,7 +63,7 @@ const services = [
     description: 'Excelente para entregas comerciais, pequenas mudanças e volumes variados.',
     features: ['Até 600 kg de carga', 'Compartimento fechado', 'Segurança e economia', 'Acesso a ruas estreitas'],
     icon: '🚙',
-    image: '/manus-storage/IMG-20260427-WA0029_2e0e4623.jpg',
+    image: '/fiorino-entrega.jpg',
   },
   {
     id: 'van',
@@ -71,7 +71,7 @@ const services = [
     description: 'Para quem precisa transportar volumes maiores com rapidez e segurança.',
     features: ['Carga até 1.200 kg', 'Ampla capacidade interna', 'Ideal para e-commerce', 'Entregas em lote'],
     icon: '🚐',
-    image: '/manus-storage/IMG-20260427-WA0028_6f50d0fa.jpg',
+    image: '/van-entrega.jpg',
   },
   {
     id: 'caminhao',
@@ -79,7 +79,7 @@ const services = [
     description: 'Para demandas robustas com entregas regionais ou intermunicipais de grande porte.',
     features: ['Cargas maiores e pesadas', 'Reforço logístico', 'Baú fechado ou aberto', 'Cobertura regional'],
     icon: '🚚',
-    image: '/manus-storage/file_00000000c96c71f5bb2143669c60e14c_60c92c4e.png',
+    image: '/caminhao-entrega.jpg',
   },
   {
     id: 'personalizadas',

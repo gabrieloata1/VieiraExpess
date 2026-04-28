@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <img
-              src="/manus-storage/02-1_fa315827.png"
+              src="/logo-vieira.png"
               alt="Vieira Express Logo"
               className="h-14 w-14 object-cover rounded-full mb-5 shadow-md"
             />

@@ -38,7 +38,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <img
-            src="/manus-storage/02-1_fa315827.png"
+            src="/logo-vieira.png"
             alt="Vieira Express Logo"
             className="h-14 w-14 object-cover rounded-full shadow-md"
           />
