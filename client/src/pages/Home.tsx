@@ -230,7 +230,7 @@ export default function Home() {
           <img
             src={IMAGES.heroBg}
             alt="Logística urbana"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0D0D1A]/95 via-[#0D0D1A]/80 to-[#0D0D1A]/40" />
         </div>
