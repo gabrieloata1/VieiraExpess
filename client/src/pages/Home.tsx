@@ -350,8 +350,8 @@ export default function Home() {
               <img
                 src="/logo-vieira.png"
                 alt="Vieira Express Logo"
-                className="h-[26rem] w-[26rem] object-contain rounded-full shadow-2xl shadow-[#00C8E0]/40 mb-8 hover:shadow-[#00C8E0]/60 transition-all duration-500 hover:scale-105"
-              />
+                className="h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 object-cover rounded-full shadow-2xl shadow-[#00C8E0]/40 mb-8 hover:shadow-[#00C8E0]/60 transition-all duration-500 hover:scale-105"
+                />
               <h2
                 className="text-4xl md:text-5xl font-extrabold text-[#1A1A2E] text-center mb-4"
                 style={{ fontFamily: 'var(--font-display)' }}
