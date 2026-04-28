@@ -67,7 +67,7 @@ export default function Header() {
         {/* CTA + Phone */}
         <div className="hidden lg:flex items-center gap-4">
           <a
-            href="tel:+551148647590"
+            href="tel:+5511948647590"
             className="flex items-center gap-2 text-[#1A1A2E] font-semibold text-sm hover:text-[#00C8E0] transition-colors"
           >
             <Phone size={16} className="text-[#00C8E0]" />
@@ -117,7 +117,7 @@ export default function Header() {
           ))}
           <div className="pt-3 border-t border-gray-100">
             <a
-              href="tel:+551148647590"
+              href="tel:+5511948647590"
               className="flex items-center gap-2 text-[#1A1A2E] font-semibold py-3 px-4"
             >
               <Phone size={16} className="text-[#00C8E0]" />
