@@ -205,7 +205,7 @@ export default function Home() {
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const whatsappMsg = `Olá! Gostaria de solicitar um orçamento.\n\nNome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}\nServiço: ${formData.service}\nMensagem: ${formData.message}`;
-    window.open(`https://wa.me/5511987893161?text=${encodeURIComponent(whatsappMsg)}`, '_blank');
+    window.open(`https://wa.me/5511948647590?text=${encodeURIComponent(whatsappMsg)}`, '_blank');
   };
 
   const handleQuoteClick = (serviceId: string) => {
@@ -225,7 +225,6 @@ export default function Home() {
         id="hero"
         className="relative min-h-[90vh] flex items-center pt-20"
       >
-        {/* Background Image */}
         <div className="absolute inset-0">
           <img
             src={IMAGES.heroBg}
@@ -237,7 +236,6 @@ export default function Home() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl">
-              {/* Badge */}
               <div className="inline-flex items-center gap-2 bg-[#00C8E0]/15 border border-[#00C8E0]/30 rounded-full px-4 py-1.5 mb-6">
                 <span className="w-2 h-2 rounded-full bg-[#00C8E0] animate-pulse" />
                 <span className="text-[#00C8E0] text-sm font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
@@ -279,7 +277,6 @@ export default function Home() {
               </div>
             </div>
 
-          {/* Quick stats in hero */}
           <div className="flex gap-8 flex-wrap mt-12">
             <div>
               <div className="text-3xl font-extrabold text-[#00C8E0]" style={{ fontFamily: 'var(--font-display)' }}>
@@ -303,35 +300,33 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-       
       </section>
 
       {/* ═══════════════════════════════════════════════════════════
-          TRUST BAR
+          TRUST BAR (CORRIGIDO PARA 2 COLUNAS RESPONSIVAS)
          ═══════════════════════════════════════════════════════════ */}
       <section className="py-10 bg-white">
         <div className="container mx-auto px-4">
           <AnimatedSection>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
               {[
-                { icon: <Clock size={28} />, title: 'Pontualidade', desc: 'Entregas sempre no prazo' },
-                { icon: <Shield size={28} />, title: 'Segurança', desc: 'Carga protegida e rastreada' },
-                { icon: <Zap size={28} />, title: 'Agilidade', desc: 'Rapidez em cada entrega' },
-                { icon: <TrendingUp size={28} />, title: 'Confiança', desc: 'Parceiro de longo prazo' },
+                { icon: <Clock size={22} />, title: 'Pontualidade', desc: 'Sempre no prazo' },
+                { icon: <Shield size={22} />, title: 'Segurança', desc: 'Carga protegida' },
+                { icon: <Zap size={22} />, title: 'Agilidade', desc: 'Rapidez total' },
+                { icon: <TrendingUp size={22} />, title: 'Confiança', desc: 'Longo prazo' },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="flex items-start gap-4 p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-[#00C8E0]/30 hover:bg-[#00C8E0]/5 transition-all duration-300"
+                  className="flex flex-col items-center text-center sm:flex-row sm:items-start sm:text-left gap-2 sm:gap-4 p-3 sm:p-5 rounded-xl bg-gray-50 border border-gray-100 hover:border-[#00C8E0]/30 hover:bg-[#00C8E0]/5 transition-all duration-300"
                 >
-                  <div className="w-12 h-12 rounded-lg bg-[#00C8E0]/10 flex items-center justify-center flex-shrink-0 text-[#00C8E0]">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-[#00C8E0]/10 flex items-center justify-center flex-shrink-0 text-[#00C8E0]">
                     {item.icon}
                   </div>
                   <div>
-                    <h4 className="font-bold text-[#1A1A2E] text-sm" style={{ fontFamily: 'var(--font-display)' }}>
+                    <h4 className="font-bold text-[#1A1A2E] text-xs sm:text-sm" style={{ fontFamily: 'var(--font-display)' }}>
                       {item.title}
                     </h4>
-                    <p className="text-[#6B6B7B] text-xs mt-0.5">{item.desc}</p>
+                    <p className="text-[#6B6B7B] text-[10px] sm:text-xs mt-0.5 leading-tight">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -410,17 +405,15 @@ export default function Home() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════
-          FLEET SHOWCASE (Instagram images)
+          FLEET SHOWCASE
          ═══════════════════════════════════════════════════════════ */}
       <section className="py-20 bg-[#1A1A2E] relative overflow-hidden">
-        {/* Decorative elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#00C8E0]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-[#00C8E0]/5 rounded-full blur-3xl" />
 
         <div className="container mx-auto px-4 relative z-10">
           <AnimatedSection>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              {/* Text */}
               <div>
                 <span
                   className="inline-block text-[#00C8E0] text-sm font-bold uppercase tracking-widest mb-3"
@@ -456,7 +449,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Images Grid */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <img
@@ -495,14 +487,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <AnimatedSection>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              {/* Image */}
               <div className="relative">
                 <img
                   src={IMAGES.aboutSection}
                   alt="Operação logística"
                   className="rounded-2xl shadow-2xl w-full object-cover h-[500px]"
                 />
-                {/* Floating stat card */}
                 <div className="absolute -bottom-6 -right-4 md:right-6 bg-white rounded-xl shadow-xl p-5 border border-gray-100">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-[#00C8E0] flex items-center justify-center">
@@ -518,7 +508,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Content */}
               <div>
                 <span
                   className="inline-block text-[#00C8E0] text-sm font-bold uppercase tracking-widest mb-3"
@@ -568,7 +557,6 @@ export default function Home() {
           TESTIMONIALS SECTION
          ═══════════════════════════════════════════════════════════ */}
       <section id="depoimentos" className="py-20 relative overflow-hidden">
-        {/* Background */}
         <div className="absolute inset-0">
           <img
             src={IMAGES.testimonialsBg}
@@ -621,7 +609,6 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <AnimatedSection>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-              {/* Left - Title */}
               <div className="lg:sticky lg:top-28">
                 <span
                   className="inline-block text-[#00C8E0] text-sm font-bold uppercase tracking-widest mb-3"
@@ -640,7 +627,7 @@ export default function Home() {
                   Caso não encontre o que procura, entre em contato conosco.
                 </p>
                 <a
-                  href="https://wa.me/5511987893161"
+                  href="https://wa.me/5511948647590"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-[#00C8E0] font-bold hover:underline"
@@ -651,7 +638,6 @@ export default function Home() {
                 </a>
               </div>
 
-              {/* Right - FAQ */}
               <div>
                 <FAQSection items={faqItems} />
               </div>
@@ -661,10 +647,9 @@ export default function Home() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════
-          QUOTE FORM SECTION
+          QUOTE FORM SECTION (CORRIGIDO BOTÃO)
          ═══════════════════════════════════════════════════════════ */}
       <section id="orcamento" className="py-20 relative overflow-hidden">
-        {/* Background */}
         <div className="absolute inset-0">
           <img
             src={IMAGES.ctaBg}
@@ -784,10 +769,10 @@ export default function Home() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-[#00C8E0] hover:bg-[#00B0C8] text-white font-bold py-3 text-base md:text-lg rounded-lg shadow-xl shadow-[#00C8E0]/25 transition-all duration-300 hover:shadow-2xl hover:shadow-[#00C8E0]/35 px-4"
+                  className="w-full bg-[#00C8E0] hover:bg-[#00B0C8] text-white font-bold py-4 text-sm md:text-lg rounded-lg shadow-xl shadow-[#00C8E0]/25 transition-all duration-300 hover:shadow-2xl hover:shadow-[#00C8E0]/35 px-4 min-h-[56px]"
                   style={{ fontFamily: 'var(--font-display)' }}
                 >
-                  <span className="flex items-center justify-center gap-2 flex-wrap">
+                  <span className="flex items-center justify-center gap-2 flex-nowrap text-xs sm:text-base md:text-lg w-full">
                     ENVIAR ORÇAMENTO VIA WHATSAPP
                     <ArrowRight size={18} className="flex-shrink-0" />
                   </span>
@@ -809,7 +794,7 @@ export default function Home() {
                     (11) 9 4864-7590
                   </a>
                   <a
-                    href="https://wa.me/5511987893161"
+                    href="https://wa.me/5511948647590"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold py-3.5 px-7 rounded-lg hover:bg-[#20BD5A] transition-all duration-300 shadow-lg shadow-[#25D366]/25"
