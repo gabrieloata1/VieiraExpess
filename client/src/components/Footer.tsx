@@ -93,7 +93,7 @@ export default function Footer() {
                 <div className="w-9 h-9 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0">
                   <Mail size={16} className="text-[#00C8E0]" />
                 </div>
-                <p>contato@vieiraexpress.com.br</p>
+                <p>vieira.express10@gmail.com</p>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ export default function Footer() {
             © 2026 Vieira Express - Soluções em Logísticas. Todos os direitos reservados.
           </p>
           <p className="text-gray-500 text-xs">
-            CNPJ: 00.000.000/0001-00
+            CNPJ: 40.630.115/0001-84
           </p>
         </div>
       </div>
