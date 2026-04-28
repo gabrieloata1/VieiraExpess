@@ -73,10 +73,11 @@ const services = [
     icon: '🚐',
     image: '/van-entrega.jpg',
   },
-  {
+    {
     id: 'caminhao',
     title: 'Caminhão',
-    description: 'Para demandas robustas com entregas regionais ou intermunicipais de grande porte.',
+    // Vê a alteração aqui na linha abaixo:
+    description: 'Para demandas robustas com entregas regionais, intermunicipais ou interestaduais de grande porte.',
     features: ['Cargas maiores e pesadas', 'Reforço logístico', 'Baú fechado ou aberto', 'Cobertura regional'],
     icon: '🚚',
     image: '/caminhao-entrega.jpg',
