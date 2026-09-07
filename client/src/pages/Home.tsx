@@ -29,10 +29,10 @@ import { useState, useEffect, useRef } from 'react';
 
 /* ── IMAGE URLS ── */
 const IMAGES = {
-  heroBg: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663605045527/bpsw3ZqLeramG3brkYb5Bc/hero-bg-JMAtt9Nd7vby4JKpwp8YT8.webp',
-  aboutSection: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663605045527/bpsw3ZqLeramG3brkYb5Bc/about-section-F5jao2ABLVtn5swaLpdPVk.webp',
-  ctaBg: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663605045527/bpsw3ZqLeramG3brkYb5Bc/cta-bg-cHnaAMzogBBumB3F72nKR6.webp',
-  testimonialsBg: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663605045527/bpsw3ZqLeramG3brkYb5Bc/testimonials-bg-QwhnwnSDXpsSJyWi6AG6Cz.webp',
+  heroBg: '/hero-bg.webp',
+  aboutSection: '/frota-completa.jpg',
+  ctaBg: '/hero-bg.webp',
+  testimonialsBg: '/hero-bg.webp',
   postFleet: '/frota-completa.jpg',
   postUtilitarios: '/fiorino-entrega.jpg',
   postMoto: '/moto-entrega.jpg',
